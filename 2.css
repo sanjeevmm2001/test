@@ -1,0 +1,60 @@
+body{
+	background: url('fantasy.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 100%;
+	overflow: auto;
+	font-family: Arial;
+	line-height: 80px;
+	background:#000000;
+}
+header{
+	font-size: 5em;
+	float: left;
+}
+header a{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 10px;
+}
+nav{
+	margin-left: 50px;
+	float: left;
+	font-size: 18px;
+}
+nav a{
+	width: 100px;
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+}
+nav a:hover{
+	background: #747474;
+	transition: 0.5s;
+	text-transform: uppercase; 
+}
+.logo{
+	width: 144px;
+	float: center;
+}
+.socialmedia{
+	float: right;
+	margin-right: 50px;
+}
+.socialmedia a{
+	width: 55px;
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	font-size: 25px;
+}
+.socialmedia a:hover{
+	background: #747474;
+	transition: 0.5s;
+	text-transform: uppercase;  
+}
