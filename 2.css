@@ -13,6 +13,7 @@ body{
 	background:#000000;
 }
 header{
+	position: fixed;
 	font-size: 5em;
 	float: left;
 }
@@ -22,7 +23,7 @@ header a{
 	margin-left: 10px;
 }
 nav{
-	margin-left: 50px;
+	margin-left: 150px;
 	float: left;
 	font-size: 18px;
 }
