@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+	font-family: "Montserrat",sans-serif;
+}
 body{
-	background: url('fantasy.jpg');
+	width: 100%;
+	background: #ffffff;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0;
 	padding: 0;
 }
 .wrap{
+	position: fixed;
 	width: 100%;
 	overflow: auto;
-	font-family: Arial;
 	line-height: 80px;
 	background:#000000;
 }
@@ -23,6 +28,7 @@ header a{
 	margin-left: 10px;
 }
 nav{
+	position: fixed;
 	margin-left: 150px;
 	float: left;
 	font-size: 18px;
@@ -58,4 +64,31 @@ nav a:hover{
 	background: #747474;
 	transition: 0.5s;
 	text-transform: uppercase;  
+}
+.one{
+	width: 100%
+}
+.scroll {
+	margin: 84px -606px 0 0;
+	background:#747474
+
+}
+.scroll a{
+	color: #000000;
+	text-decoration: none;
+}
+.s1{
+	color: #ffffff;
+}
+.video{
+	width: 50%;
+	float:left;
+}
+.two{
+	width: 50
+}
+.intro{
+	width: 50%
+	margin: 50px;
+
 }
