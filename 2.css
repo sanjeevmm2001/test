@@ -1,94 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*{
-	font-family: "Montserrat",sans-serif;
+html{
+	background: #ffffff;
+	position: absolute;
+
 }
 body{
-	width: 100%;
-	background: #ffffff;
-	background-size: cover;
-	background-repeat: no-repeat;
+	display: inline-block;
+	background: #9097FF;
 	margin: 0;
-	padding: 0;
-}
-.wrap{
-	position: fixed;
-	width: 100%;
-	overflow: auto;
-	line-height: 80px;
-	background:#000000;
-}
-header{
-	position: fixed;
-	font-size: 5em;
-	float: left;
-}
-header a{
-	text-decoration: none;
-	color: #ffffff;
-	margin-left: 10px;
-}
-nav{
-	position: fixed;
-	margin-left: 150px;
-	float: left;
-	font-size: 18px;
-}
-nav a{
-	width: 100px;
-	display: inline-block;
-	text-decoration: none;
-	color: #ffffff;
-	text-align: center;
-}
-nav a:hover{
-	background: #747474;
-	transition: 0.5s;
-	text-transform: uppercase; 
-}
-.logo{
-	width: 144px;
-	float: center;
-}
-.socialmedia{
-	float: right;
-	margin-right: 50px;
-}
-.socialmedia a{
-	width: 55px;
-	display: inline-block;
-	color: #ffffff;
-	text-align: center;
-	font-size: 25px;
-}
-.socialmedia a:hover{
-	background: #747474;
-	transition: 0.5s;
-	text-transform: uppercase;  
-}
-.one{
-	width: 100%
-}
-.scroll {
-	margin: 84px -606px 0 0;
-	background:#747474
 
 }
-.scroll a{
-	color: #000000;
-	text-decoration: none;
+h1,h2{
+	text-align: center;
 }
-.s1{
-	color: #ffffff;
-}
-.video{
-	width: 50%;
-	float:left;
-}
-.two{
-	width: 50
-}
-.intro{
-	width: 50%
-	margin: 50px;
+img{
+	height: 80%;
+	width: 70%;
+	display: block;
+	margin: auto;
+	border: 5px groove #000;
 
+}
+
+div{
+	background: #000000;
+	color: #ffffff;
+	display: block;
+	margin: 25px 60px;
+	padding: 30px;
+	text-align: justify;
+	font-size: 14pt;
+}
+.order{
+	display: inline;
+	text-align: justify;
+	list-style: inside;
+	display: table;
+	margin: auto;
+	
 }
